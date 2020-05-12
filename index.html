@@ -53,8 +53,8 @@
          title="Failed: {{ctrl.failCount()}}"
          ng-style="{'width': ctrl.failPerc() + '%'}"><div class="statusNumber">{{ctrl.failCount()}}</div></div>
 </div>
-
-<label>Search: <input ng-model="searchSettings.description"></label>
+ 
+ <label>Search: <input ng-model="searchSettings.description"></label>
 <div class="pull-right">
     <button class="btn btn-default" ng-class="{active: searchSettings.allselected}" ng-click="ctrl.chooseAllTypes()">ALL</button>
     <button class="btn btn-default" ng-class="{active: searchSettings.passed}"
